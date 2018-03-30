@@ -11,3 +11,7 @@ docker service create --name platform-testing \
   --mount type=volume,source=some-volume,destination=/data/some-volume \
   composer22/alpine-workbench:latest
 ```
+##### Docker build
+
+docker build -t composer22/alpine-workbench:latest .
+docker push composer22/alpine-workbench:latest
